@@ -16,14 +16,14 @@ function Section1() {
   const [showQuote, setShowQuote] = useState(false);
   return (
     <>
-      <Container>
+      <Container id="section1">
         <Description>
           <DescriptionElements>
             <Text1>NIMSCRETE CONCRETE COATINGS</Text1>
             <Text2>The Industry's Best Warranty</Text2>
             <Text3>
               While our competitors offer one to five-year warranties, we
-              proudly stand behind a 15 year warranty on all our products.
+              proudly stand behind a 15 year warranty on all our products!!!
             </Text3>
           </DescriptionElements>
           <FormContainer showQuote={showQuote}>
